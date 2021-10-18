@@ -1,0 +1,78 @@
+*{
+    box-sizing:border-box;
+}
+
+.container{
+padding:1em 2em;
+
+}
+
+div {
+    text-align: center;
+}
+
+.noose-component{
+    position: absolute;
+    width:100px;
+    height:20px;
+    
+}
+.noose-component-vertical{
+    transform: rotate(90deg);
+    right:0;
+    left: 0;
+    margin:auto;
+    overflow: hidden;
+    max-width:95px;
+    height:20px;
+    top:150px;
+}
+
+.player-model{
+    padding-top: 5em;
+    position:relative;
+}
+
+.hangman-body-components{
+width:125px;
+position:absolute;
+}
+
+.hangman-head, .hangman-body{
+    right:0;
+    left: 0;
+    margin:auto;
+}
+
+.hangman-head{
+    z-index: 101;
+}
+
+.hangman-body{
+    transform:rotate(90deg);
+    top:235px;
+    z-index: 100;
+}
+
+.hangman-left-arm, .hangman-left-leg{
+    transform:rotate(-45deg);
+    right:49%;
+    margin:auto;
+    
+
+}
+.hangman-right-arm, .hangman-right-leg{
+    transform:rotate(45deg);
+    left:49%;
+    margin:auto;
+    
+}
+.hangman-left-arm, .hangman-right-arm{
+    top:245px;
+}
+
+.hangman-left-leg, .hangman-right-leg{
+    top:340px;
+}
+
+
